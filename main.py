@@ -3,6 +3,7 @@ import requests
 from apify_client import ApifyClient
 import openai
 import json
+import os
 
 # Initialize APIs
 APIFY_API_KEY = "apify_api_bo5a5G2lcChSsn5PjsIrcuY0NzkP0A0fsoeO"
