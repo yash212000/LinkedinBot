@@ -7,7 +7,8 @@ import os
 
 # Initialize APIs
 APIFY_API_KEY = "apify_api_bo5a5G2lcChSsn5PjsIrcuY0NzkP0A0fsoeO"
-openai.api_key = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+openai.api_key = OPENAI_API_KEY
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
 
 
