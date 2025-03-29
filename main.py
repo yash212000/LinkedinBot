@@ -6,8 +6,7 @@ import json
 
 # Initialize APIs
 APIFY_API_KEY = "apify_api_bo5a5G2lcChSsn5PjsIrcuY0NzkP0A0fsoeO"
-OPENAI_API_KEY = "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"
-openai.api_key = OPENAI_API_KEY
+openai.api_key = os.getenv("OPENAI_API_KEY")
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
 
 
