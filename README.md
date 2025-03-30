@@ -43,6 +43,5 @@ The **LinkedIn Career Optimizer** is an AI-powered chat system that helps users 
 - Job market trends analysis.
 - Multilingual support.
 
-## License
-MIT License
+
 
